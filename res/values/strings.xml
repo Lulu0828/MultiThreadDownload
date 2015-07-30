@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MultiThreadDownload</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="url_txt">请输入文件下载地址</string>
+    <string name="down_txt">请输入文件保存地址</string>
+    <string name="down_btn_txt">下    载</string>
+
+</resources>

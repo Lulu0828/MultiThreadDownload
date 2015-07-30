@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}"
+    android:gravity="center_vertical"
+    android:padding="50dp"
+    android:orientation="vertical" >
+
+    <EditText 
+        android:id="@+id/url_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textUri"
+        android:hint="@string/url_txt"/>
+    
+    <EditText 
+        android:id="@+id/down_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        android:hint="@string/down_txt"/>
+    
+    <Button 
+        android:id="@+id/down_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/down_btn_txt"/>
+    
+    <ProgressBar 
+        android:id="@+id/down_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"   
+    	style="?android:attr/progressBarStyleHorizontal"
+    	android:visibility="gone"/>
+
+</LinearLayout>
